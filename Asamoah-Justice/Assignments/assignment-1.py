@@ -1,5 +1,5 @@
 def fizz_buzz(n):
-    # Use 1 as the starting point,
+    # Using 1 as the starting point,
     for i in range(1, n + 1): 
         if i % 3 == 0 and i % 5 == 0:
             print("FizzBuzz")
@@ -10,5 +10,5 @@ def fizz_buzz(n):
         else:
             print(i)
 
-# Call the function here in your file
+# Calling the function here
 fizz_buzz(50)
